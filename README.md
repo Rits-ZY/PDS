@@ -1,1 +1,1 @@
-# PDS
+#Discription@author ZY@Several Poisson Disk Down-Sampling method for Point Cloud data.# Enverionment1. Windows OS2. Visual Studio 20173. PCL1.9.1
