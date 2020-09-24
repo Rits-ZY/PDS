@@ -159,10 +159,12 @@
     <ClCompile Include="pclTest3.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ImprovedDPDS.h" />
     <ClInclude Include="PDS\DPDS.h" />
     <ClInclude Include="PDS\PDS.h" />
     <ClInclude Include="PDS\SamplingMethod.h" />
     <ClInclude Include="PDS\SamplingMethodExer.h" />
+    <ClInclude Include="CurvatureDependentPDS.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

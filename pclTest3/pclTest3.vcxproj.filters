@@ -31,5 +31,11 @@
     <ClInclude Include="PDS\DPDS.h">
       <Filter>Header Files\PDS</Filter>
     </ClInclude>
+    <ClInclude Include="ImprovedDPDS.h">
+      <Filter>Header Files\PDS</Filter>
+    </ClInclude>
+    <ClInclude Include="CurvatureDependentPDS.h">
+      <Filter>Header Files\PDS</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,20 +1,14 @@
 #pragma once
 #include <cstdlib>
-#include "SamplingMethod.h"
+#include "PDS/SamplingMethod.h"
 
 
-///////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
 // 					Dual-Shell Poisson Disk Sampling								//
 //				An improved down-sampling method based on PDS   					//
 //       	Improve the uniformity of Point Cloud with two concentric circle		//
 //////////////////////////////////////////////////////////////////////////////////////
 
-class cmp {
-public:
-	bool operator()(const std::pair<int,int>& a,const std::pair<int, int>& b) {
-		return a.second > b.second;
-	}
-};
 
 class DPDS :
 	public SamplingMethod

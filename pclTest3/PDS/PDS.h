@@ -1,10 +1,10 @@
 #pragma once
 #include "PDS/SamplingMethod.h"
 
-///////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////
 // 						Poisson Disk Sampling										//
 //					A random down-sampling method									//
-//       Input KD_Tree and a vector to store sampled points index					//
+//				 To control the density of point cloud 								//
 //////////////////////////////////////////////////////////////////////////////////////
 
 class PDS :
@@ -69,7 +69,6 @@ public:
 		std::cout << "Time use:" << 1000 * (time_end - time_start) / (double)CLOCKS_PER_SEC << "ms" << std::endl;
 		std::cout << "Data points number:" << size << std::endl;
 		std::cout << "Sampled points number:" << sampling_result.size() << std::endl;
-	}
-
+	} 
 };
 
